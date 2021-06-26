@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+	font-family: sans-serif;
+  height: 100vh;
+  background: url('https://wallpaperboat.com/wp-content/uploads/2019/10/website-background-texture-17.jpg')
+}
+
+.enter {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.en {
+  height: 450px;
+  width: 350px;
+  text-align: center;
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: none;
+  outline: none;
+  background: rgba(0,0,0,.7);
+  transition: .9s;
+}
+.reg {
+  margin-bottom: 50px;
+  padding-top: 5px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+	font-size: 20px;
+	background: none;
+	outline: none;
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #0fc3f5;
+}
+a:hover {
+  cursor: pointer;
+  transition: 0.2s easy;
+  color: #4442db;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+}
+.img img {
+  margin-top: 13px;
+  margin-right: 3px;
+}
+.enter_email input[type="email"]:focus {
+  border: 1px solid #0fc3f5;
+}
+.enter_password input[type="password"]:focus {
+	border: 1px solid #0fc3f5;
+}
+.enter_input input[type="submit"] {
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	background: #0fc3f5;
+}
+h1 {
+  color: white;
+}
+.enter_input input[type="submit"]:hover {
+  cursor: pointer;
+	background: #4442db;
+}
+.a {
+}
